@@ -216,6 +216,7 @@ class TREElement(object):
                 out[fld] = value.to_json()
             else:
                 out[fld] = value
+        return out
 
 
 class TRELoop(TREElement):
